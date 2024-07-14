@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDENTIFICAÇÃO DE ESBOÇO</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Desenho Rápido</h1>
+    <p id="seu-esboco-id">Seu Esboço</p>
+    <p id="precisao-id">Precisão</p>
+    <p id="esboco-a-ser-desenhado-id">Esboço a Ser Desenhado</p>
+    <center>
+        <!-- Seus elementos de desenho aqui -->
+        <span>Pontuação:</span>
+        <span id="pontuacao-id"></span>
+        <br>
+        <span>Tempo:</span>
+        <span id="tempo-id"></span>
+        <span id="sketchToDraw">Esboço a Ser Desenhado:</span>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
